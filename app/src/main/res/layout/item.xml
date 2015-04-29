@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/idRow"
+        android:minHeight="30dp">
+
+        <TextView
+            android:id="@+id/idNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:width="0dp"
+            android:height="0dp" />
+
+        <TextView
+            android:id="@+id/nameNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_column="0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_column="1"
+            android:width="20dp" />
+
+        <TextView
+            android:id="@+id/dateNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_column="3"
+            android:textSize="25dp" />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#000080">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteEditText"
+            android:hint="Текст заметки"
+            android:textColorHint="#FFFFFF"
+            android:enabled="true"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить"
+            android:id="@+id/noteButton"
+            android:textSize="30dp"
+            android:onClick="onMyButtonClick"
+            android:background="#7B68EE"
+            android:textColor="#FFFFFF" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/noteListView"
+            android:background="#E6E6FA"
+            android:choiceMode="multipleChoice"
+            android:backgroundTint="#E6E6FA"
+            android:drawSelectorOnTop="true"
+            android:headerDividersEnabled="true"
+            android:footerDividersEnabled="true"
+            android:clickable="true" />
+
+    </LinearLayout>
+</RelativeLayout>
