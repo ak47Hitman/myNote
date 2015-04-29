@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#66CDAA">
 
     <TableRow
         android:layout_width="fill_parent"
@@ -23,8 +24,9 @@
             android:layout_height="wrap_content"
             android:text="TextView"
             android:layout_column="0"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#F0F8FF" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,7 +41,8 @@
             android:layout_height="wrap_content"
             android:text="TextView"
             android:layout_column="3"
-            android:textSize="25dp" />
+            android:textSize="20dp"
+            android:textColor="#F0F8FF" />
 
     </TableRow>
 
