@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:id="@+id/calendarView"
+        android:layout_gravity="center_horizontal"
+        android:background="#95A5A6"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&lt;- Note"
+        android:id="@+id/note"
+        android:background="#7F8C8D"
+        android:textSize="20dp"
+        android:textColor="#ff1f2e3e"
+        android:onClick="onNoteButtonClick"
+        android:height="40dp" />
+</LinearLayout>
