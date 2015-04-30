@@ -75,6 +75,7 @@ public class NoteWorkDBHelper extends SQLiteOpenHelper {
 
         Note note = new Note(Integer.parseInt(cursor.getString(0)),
                 cursor.getString(1), cursor.getString(2));
+        db.close();
         return note;
     }
 
