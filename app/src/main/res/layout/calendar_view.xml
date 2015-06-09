@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:id="@+id/dayOfWeekGridView"
+        android:numColumns="@integer/number_of_column_in_calendar"
+        android:choiceMode="multipleChoice" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="101dp"
+        android:layout_weight="0.93">
+
+        <GridView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:id="@+id/numberOfWeekGridView"
+            android:numColumns="@integer/number_of_column_in_calendar"
+            android:choiceMode="multipleChoice" />
+
+        <GridView
+            android:layout_width="333dp"
+            android:layout_height="match_parent"
+            android:id="@+id/daysGridView"
+            android:numColumns="@integer/number_of_day"
+            android:choiceMode="multipleChoice" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&lt;- Note"
+        android:id="@+id/note"
+        android:background="#7F8C8D"
+        android:textSize="20dp"
+        android:textColor="#ff1f2e3e"
+        android:onClick="onNoteButtonClick"
+        android:height="40dp"
+        android:layout_weight="0.07" />
+
+</LinearLayout>

@@ -15,7 +15,7 @@
         android:textSize="25dp"
         android:singleLine="false"
         android:background="#2C3E50"
-        android:height="40dp" />
+        android:height="50dp" />
 
     <Button
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:onClick="onMyButtonClick"
         android:background="#7F8C8D"
         android:textColor="#34495E"
-        android:height="40dp" />
+        android:height="50dp" />
 
     <ListView
         android:layout_width="match_parent"
@@ -53,5 +53,5 @@
         android:textColor="#34495E"
         android:textSize="20dp"
         android:onClick="onCalendarButtonClick"
-        android:height="40dp" />
+        android:height="50dp" />
 </LinearLayout>
